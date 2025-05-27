@@ -47,6 +47,7 @@ async def read_root_frontend():
 origins = [
     "http://localhost",
     "http://localhost:8001",
+    "https://ragchat-demo-mhari.onrender.com"
     # Add your deployed frontend URL here later, e.g.:
     # "https://your-deployed-frontend.netlify.app",
 ]
