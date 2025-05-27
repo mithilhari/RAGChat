@@ -10,3 +10,4 @@ pydantic
 python-multipart # For file uploads
 chromadb # For local ChromaDB persistence
 tiktoken # Often a dependency for LLMs
+sentence-transformers
