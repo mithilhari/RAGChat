@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+pydantic
+python-multipart # For file uploads
+chromadb # For local ChromaDB persistence
+tiktoken # Often a dependency for LLMs

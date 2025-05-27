@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document RAG Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Document RAG Chatbot</h1>
+
+        <div class="section">
+            <h2>Upload Documents</h2>
+            <input type="file" id="document-upload" accept=".pdf,.txt,.docx">
+            <button id="upload-button">Upload Document</button>
+            <div id="upload-status" class="status-message"></div>
+        </div>
+
+        <div class="section">
+            <h2>Your Documents</h2>
+            <select id="document-selector" multiple size="5">
+                </select>
+            <div id="document-list-status" class="status-message"></div>
+        </div>
+
+        <div class="section chat-area">
+            <h2>Chat with Documents</h2>
+            <div id="chat-messages" class="chat-messages">
+                </div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Ask a question about the documents...">
+                <button id="send-button">Send</button>
+            </div>
+            <div id="chat-status" class="status-message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
